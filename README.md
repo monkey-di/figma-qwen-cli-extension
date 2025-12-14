@@ -16,9 +16,13 @@ qwen extensions install /path/to/figma-qwen-cli-extension
 ## Setup
 
 1. Get your Figma Personal Access Token:
-   - Go to https://www.figma.com/developers/api#access-tokens
-   - Click "Get personal access token"
-   - Copy the token
+   - Open Figma and click the account menu (top-left corner)
+   - Select **Settings**
+   - Go to the **Security** tab
+   - Scroll to **Personal access tokens** section
+   - Click **Generate new token**
+   - Enter a name for your token, assign the scopes you want, and press Enter
+   - **Copy the token immediately** (it won't be shown again!)
 
 2. Set the environment variable:
 
